@@ -19,7 +19,8 @@ import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Square;
 
 public class Calculator {
-
+//comment
+	//next comment
 	private TextProvider textProvider;
 
 	private String cmd;
@@ -36,8 +37,13 @@ public class Calculator {
 	}
 
 	private void setupDefaultOperations() {
+
 	    // Kommentar von mir
 	    //2.Kommentar
+
+	    // more operations to come
+	    //naechster Kommentar
+
 		new Equals();
 		new Minus();
 		new Plus();
